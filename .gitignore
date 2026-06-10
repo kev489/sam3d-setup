@@ -1,0 +1,26 @@
+# Downloaded upstream source and model weights
+sam-3d-objects/
+
+# Generated reconstruction outputs
+outputs/
+examples/outputs/
+*.ply
+*.obj
+*.glb
+
+# Python and environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Credentials and local configuration
+.env
+*.log
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
